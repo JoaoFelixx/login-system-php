@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="../css/style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+  <title>Login</title>
+
+</head>
+
+<body>
+  <div>
+    <form action="../../controllers/login.php" method="POST">
+      <h1>Entrar</h1>
+      <label class="label" for="">Email:</label> <br>
+      <input type="email" name="username"><br>
+      <label class="label" for="">Senha:</label> <br>
+      <input type="password" name="password"><br>
+
+      <button type="submit" class="mt-2 btn btn-primary">Entrar</button><br><br>
+      Não tem conta ? <a class="mt-6" href="../register/">Clique Aqui</a>
+      <br>
+    </form>
+  </div>
+</body>
+
+</html>

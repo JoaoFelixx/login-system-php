@@ -1,0 +1,35 @@
+body {
+  padding: 0px;
+  margin: 0px;
+  background-image: linear-gradient(to right, rgb(255, 255, 255), rgb(000, 000, 000));
+}
+
+div {
+  position: relative;
+  top: 100px;
+  width: 600px;
+  padding: 10px;
+  background-color: rgb(9, 253, 253);
+  opacity: 0.8;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+input {
+  width: 80%;
+}
+
+.label {
+  text-align: end;
+}
+
+a {
+  text-decoration: none;
+}
+
+@media screen and (max-width: 700px) {
+  div {
+    width: 100%;
+  }
+}
